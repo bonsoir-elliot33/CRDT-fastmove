@@ -25,15 +25,7 @@ print(a.doc().paragraphs())   # ['abcde'] on both replicas
 Positions index the visible text. Editors can pass elements instead with
 `insert_after`, `erase`, `split_after`, `merge_para` and `move_range`.
 
-## Speed
-
-A few microseconds per edit at 100k+ operations, in plain Python.
-
 ## Status
 
 Research code. Tested exhaustively on small documents and with random
 histories, not proven correct.
-
-## License
-
-MIT
